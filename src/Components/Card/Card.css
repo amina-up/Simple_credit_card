@@ -1,0 +1,62 @@
+.card-credit {
+  background-image: url("../../assets//credit.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  border-radius: 9%;
+  width: 400px;
+  height: 250px;
+  margin-left: 100px;
+  margin-top: 100px;
+  position: relative;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+.img-puce {
+  width: 50px;
+}
+.img-pucee {
+  width: 50px;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+.contiiner {
+  position: relative;
+}
+.card-num {
+  display: flex;
+  justify-content: space-between;
+}
+.title {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.end-card {
+  display: flex;
+  justify-content: space-between;
+}
+.bc-num {
+  background-color: #73975569;
+  line-height: 1;
+  font-weight: 500;
+  font-family: "Orbitron", sans-serif;
+}
+
+/* ********************** */
+.cred-num {
+  /* justify-content: center; */
+  font-size: 1.7rem;
+  color: #bcc659;
+}
+.small-title {
+  font-size: 0.5rem;
+}
+.validy {
+  line-height: 1;
+  font-weight: 500;
+  font-family: "Orbitron", sans-serif;
+}
